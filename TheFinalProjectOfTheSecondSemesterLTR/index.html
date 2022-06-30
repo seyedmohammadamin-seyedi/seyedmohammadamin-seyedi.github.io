@@ -11,46 +11,52 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
   <!--header,navbar-->
-    <nav class="navbar navbar-expand-lg  bbbb ">
-        <div class="container-fluid   navcontasize ">
-          <a class="navbar-brand " href="#"><img src="images/1.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-bg-light"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-            <ul class="navbar-nav ">
-              <li class="nav-item li1">
-                <a class="nav-link a1" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item li1">
-                <a class="nav-link a1" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item li1">
-                <a class="nav-link a1" href="#">SERVICES</a>
-              </li>
-              <li class="nav-item li1">
-                <a class="nav-link a1" aria-current="page" href="#">PAGES</a>
-              </li>
-              <li class="nav-item li1">
-                <a class="nav-link a1" href="#">BLOG</a>
-              </li>
-              <li class="nav-item li1">
-                <a class="nav-link a1" href="#">CONTACT</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
 
-    <nav class="navbar navbar-expand-lg d-none d-lg-flex " id="navbar">
-        <div class="container-fluid   navcontasize ">
+     
+        <nav class="navbar navbar-expand-lg  bbbb  " >
+          <div class="container-fluid   navcontasize " style="order:999999;">
+            <a class="navbar-brand " href="#"><img src="images/1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+              <ul class="navbar-nav order-first">
+                <li class="nav-item li1">
+                  <a class="nav-link a1" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item li1">
+                  <a class="nav-link a1" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item li1">
+                  <a class="nav-link a1" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item li1">
+                  <a class="nav-link a1" aria-current="page" href="#">PAGES</a>
+                </li>
+                <li class="nav-item li1">
+                  <a class="nav-link a1" href="#">BLOG</a>
+                </li>
+                <li class="nav-item li1">
+                  <a class="nav-link a1" href="#">CONTACT</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+       
+
+      <nav class="navbar navbar-expand-lg d-none d-lg-flex " id="navbar">
+        <div class="container-fluid order-first  navcontasize ">
           <a class="navbar-brand " href="#"><img src="images/1.png" alt=""></a>
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -83,68 +89,320 @@
         </div>
       </nav>
 
+       <!--main-->
 
 
       <div class="container-fluid ">
-        <div class="row">
-          <div class="col w-100 d-flex justify-content-center  position-relative firstcol" style="height:640px;margin-bottom:200px;">
-            <div class="w-75 d-flex align-items-center justify-content-between bg-light position-relative rounded-5 p-4" style="height:700px;bottom:-140px;">
-              <div class=" h-100 bg-danger" style="width:60%;background-image: url(images/me.jpeg);background-size: cover;"></div>
-              <div class=" bg-warning" style="width:28%;height:85%;">
+        <div class="row ">
+          <div class="col  d-flex justify-content-center  position-relative firstcol mt-5 mt-sm-0 " >
+            <div class=" d-flex flex-wrap align-items-center justify-content-between bg-light position-relative rounded-5 p-4 parentgoli"  >
+             <div class="d-flex  justify-content-xl-between justify-content-xxl-between flex-wrap">
+              <div class="   goli1 d-flex" ><img class="w-100 h-100 d-block" src="images/me.jpeg" alt=""></div>
+              <div class=" d-flex justify-content-center align-content-center align-items-center divtxt goli2 " >
+               <div class="h-75 ">
                 <h6 class="mb-2">HELLO EVERYBODY, I AM</h6>
-                <h3 class="mb-2 h1 lh-lg fw-bold">Donald McKinney</h3>
-                <h4 class="mb-2">Web Design Student</h4>
-                <p class="mb-5">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
-                <ul class="ul1 mb-5 ps-0" style="list-style-type: none;">
-                  <li>
-                   <a href="">
-                    <i class="bi bi-calendar3"></i>&nbsp;&nbsp;&nbsp;
-                   <span class="text-black"> 10 wd November, 1999</span>
-                   </a>
+               <h3 class="mb-2 h1 fw-bold text-start text-uppercase ">Donald McKinney</h3>
+               <h4 class="mb-2">Web Design Student</h4>
+               <p class="mb-5">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+               <ul class="ul1 mb-5 ps-0" style="list-style-type: none;">
+                 <li>
+                  <a href="">
+                   <i class="bi bi-calendar3"></i>&nbsp;&nbsp;&nbsp;
+                  <span class="text-black"> 10 wd November, 1999</span>
+                  </a>
+                 </li>
+                 <li>
+                  <a  href="">
+                   <i class="bi bi-telephone"></i>&nbsp;&nbsp;&nbsp;
+                   <span class="text-black">09*********</span>
+                  </a>
+                 </li>
+                 <li>
+                  <a href="">
+                   <i class="bi bi-envelope"></i>&nbsp;&nbsp;&nbsp;
+                   <span class="text-black">aminseyyedi48@gmail.com</span>
+                  </a>
+                 </li>
+                 <li>
+                  <a href="">
+                   <i class="bi bi-house"></i>&nbsp;&nbsp;&nbsp;
+                   <span class="text-black">Iran Tehran Azadi Square</span>
+                  </a>
+                 </li>
+               </ul>
+               <ul class="ul2 ps-0">
+                  <li class=" d-inline-block position-relative" style="width:40px;line-height: 40px;text-align: center;">
+                   <a href="#" class="w-100 h-100 d-block position-absolute "></a>
+                   <i class="bi bi-facebook text-light " style="display:inline !important; "></i>
                   </li>
-                  <li>
-                   <a  href="">
-                    <i class="bi bi-telephone"></i>&nbsp;&nbsp;&nbsp;
-                    <span class="text-black">09*********</span>
-                   </a>
+                  <li class=" d-inline-block position-relative" style="width:40px;line-height: 40px;text-align: center;">
+                   <a href="#" class="w-100 h-100 d-block position-absolute "></a>
+                   <i class="bi bi-twitter text-light " style="display:inline !important; "></i>
                   </li>
-                  <li>
-                   <a href="">
-                    <i class="bi bi-envelope"></i>&nbsp;&nbsp;&nbsp;
-                    <span class="text-black">aminseyyedi48@gmail.com</span>
-                   </a>
+                  <li class=" d-inline-block position-relative" style="width:40px;line-height: 40px;text-align: center;">
+                   <a href="#" class="w-100 h-100 d-block position-absolute "></a>
+                   <i class="bi bi-linkedin text-light " style="display:inline !important; "></i>
                   </li>
-                  <li>
-                   <a href="">
-                    <i class="bi bi-house"></i>&nbsp;&nbsp;&nbsp;
-                    <span class="text-black">Iran Tehran Azadi Square</span>
-                   </a>
-                  </li>
-                </ul>
-                <ul class="ul2 ">
-                   <li class="bg-secondary d-lg-inline-block position-relative" style="width:40px;line-height: 40px;text-align: center;">
-                    <a href="#" class="w-100 h-100 d-block position-absolute "></a>
-                    <i class="bi bi-facebook text-light " style="display:inline !important; "></i>
-                   </li>
-                   <li class="bg-secondary d-lg-inline-block position-relative" style="width:40px;line-height: 40px;text-align: center;">
-                    <a href="#" class="w-100 h-100 d-block position-absolute "></a>
-                    <i class="bi bi-twitter text-light " style="display:inline !important; "></i>
-                   </li>
-                   <li class="bg-secondary d-lg-inline-block position-relative" style="width:40px;line-height: 40px;text-align: center;">
-                    <a href="#" class="w-100 h-100 d-block position-absolute "></a>
-                    <i class="bi bi-linkedin text-light " style="display:inline !important; "></i>
-                   </li>
-                </ul>
+               </ul>
+               </div>
+             </div> 
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid position-relative ">
+        <div class="row ">
+          <div class="col-10 d-flex flex-column justify-content-between col-lg-5 offset-1  " style=" min-height:300px; box-sizing:border-box;">
+            <div class="row">
+              <h3>About Myself</h3>
+              <p >inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+            </div>
+            <div class="row  bg-danger">
+              <div class="col-12 col-md-4  bg-light">
+                <i class="bi bi-clipboard-data"></i>
+                <h4>$8.5m</h4>
+                <p>total donation</p>
+              </div>
+              <div class="col-12 col-md-4  bg-warning">
+                <i class="bi bi-journals"></i>
+                <h4>1465</h4>
+                <p>total projects</p>
+              </div>
+              <div class="col-12 col-md-4  bg-info">
+                <i class="bi bi-people"></i>
+                <h4>3965</h4>
+                <p>Total Volunteers</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-5 offset-1 offset-lg-0 " style=" height: 50vh;min-height:300px; max-height:361px;box-sizing:border-box;">
+            <div class="row h-100 bg-info">
+              <div class="col-12 bg-light">
+                <h4>After Effects 85%</h4>
+                <div class="progress bg-light p-1 border border-1 border-secondary">
+                  <div class="progress-bar  rounded-1 progrscolor" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col-12 bg-light">
+                <h4>After Effects 90%</h4>
+                <div class="progress bg-light p-1 border border-1 border-secondary">
+                  <div class="progress-bar  rounded-1 progrscolor" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col-12 bg-light">
+                <h4>After Effects 70%</h4>
+                <div class="progress bg-light p-1 border border-1 border-secondary">
+                  <div class="progress-bar  rounded-1 progrscolor" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col-12 bg-light">
+                <h4>After Effects 95%</h4>
+                <div class="progress bg-light p-1 border border-1 border-secondary">
+                  <div class="progress-bar  rounded-1 progrscolor" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col-12 bg-light">
+                <h4>After Effects 75%</h4>
+                <div class="progress bg-light p-1 border border-1 border-secondary">
+                  <div class="progress-bar  rounded-1 progrscolor" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid position-relative">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col w-100 firstcol" style="height:760px;margin-bottom:200px;">
+          <div class="col bg-info">
+            <div class="w-75 mx-auto ">
 
+              <ul class="p-0 text-center">
+                <li class=" d-inline-block rounded-1"><a class="d-block px-sm-1 px-md-5 text-reset " style="text-decoration:none;line-height: 50px;" href="">My Experiences</a></li>
+                <li class=" d-inline-block rounded-1"><a class="d-block px-sm-1 px-md-5 text-reset " style="text-decoration:none;line-height: 50px;" href="">My Education</a></li>
+              </ul>
+
+              <ul class="p-0 text-center mx-auto ul3 position-relative " style="max-width:460px;">
+                <li class="position-relative" style="list-style:none;">
+                  <span class="d-none d-sm-block" style="height: 15px;width: 15px; border-radius: 50%; display: block; background: rgba(255,255,255,.2);position: absolute;left: 50%;top:30px; transform: translateX(-50%);"></span>
+                  <div class="d-flex flex-column flex-sm-row text-start justify-content-sm-between">
+                    <div class="d-flex mb-3">March 2017 to present</div>
+                    <div>
+                      <h4 class="mb-3">Colorlib</h4>
+                      <p>
+                        Senior Web Developer 
+                        <br>
+                        Santa monica, Los angeles
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class=" position-relative" style="list-style:none;">
+                  <span class="d-none d-sm-block" style="height: 15px;width: 15px; border-radius: 50%; display: block; background: rgba(255,255,255,.2);position: absolute;left: 50%;top:30px; transform: translateX(-50%);"></span>
+                  <div class="d-flex flex-column flex-sm-row text-start justify-content-sm-between">
+                    <div class="d-flex mb-3">March 2017 to present</div>
+                    <div>
+                      <h4 class="mb-3">Colorlib</h4>
+                      <p>
+                        Senior Web Developer 
+                        <br>
+                        Santa monica, Los angeles
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class=" position-relative" style="list-style:none;">
+                  <span class="d-none d-sm-block" style="height: 15px;width: 15px; border-radius: 50%; display: block; background: rgba(255,255,255,.2);position: absolute;left: 50%;top:30px; transform: translateX(-50%);"></span>
+                  <div class="d-flex flex-column flex-sm-row text-start justify-content-sm-between">
+                    <div class="d-flex mb-3">March 2017 to present</div>
+                    <div>
+                      <h4 class="mb-3">Colorlib</h4>
+                      <p>
+                        Senior Web Developer 
+                        <br>
+                        Santa monica, Los angeles
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 ">
+           <div class="w-75 bg-light mx-auto">
+            <h2 class="text-center texe-d">offerings to my clients</h2>
+            <div class="w-50 mx-auto text-center">
+              <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+            </div>
+           </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 px-0">
+            <div class="w-75 bg-light mx-auto p-3 me-lg-0 my-2 me-sm-1">
+              <i class="bi bi-house-fill mb-3 d-block"></i>
+              <h4 class="mb-2">Architecture</h4>
+              <p class="mb-3">If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 px-0">
+            <div class="w-75 bg-light mx-auto  p-3 my-2 ms-sm-1 mx-md-auto">
+              <i class="bi bi-boombox mb-3 d-block"></i>
+              <h4 class="mb-2">Architecture</h4>
+              <p class="mb-3">If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 px-0">
+            <div class="w-75 bg-light mx-auto ms-lg-0 p-3 my-2 me-sm-1">
+              <i class="bi bi-calculator mb-3 d-block"></i>
+              <h4 class="mb-2">Architecture</h4>
+              <p class="mb-3">If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 bg-danger text-center">
+            <h4 >Our Latest Featured Projects</h4>
+            <p>Who are in extremely love with eco friendly system.</p>
+            <ul class="ul4  text-center">
+              <li><a href="">all</a></li>
+              <li><a href="">vector</a></li>
+              <li><a href="">raster</a></li>
+              <li><a href="">ui/ux</a></li>
+              <li><a href="">prainting</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <div class="mx-auto mb-2 " style="max-width:340px;"><img class="" style="width:100%;" src="images/a1.webp" alt=""></div>
+            <div class="text-center">
+              <h4 class="fw-bolder">3D Helmet Design</h4>
+              <p class="text-secondary">Client Project</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <div class="mx-auto mb-2 " style="max-width:340px;"><img class="" style="width:100%;" src="images/a1.webp" alt=""></div>
+            <div class="text-center">
+              <h4 class="fw-bolder">3D Helmet Design</h4>
+              <p class="text-secondary">Client Project</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <div class="mx-auto mb-2 " style="max-width:340px;"><img class="" style="width:100%;" src="images/a1.webp" alt=""></div>
+            <div class="text-center">
+              <h4 class="fw-bolder">3D Helmet Design</h4>
+              <p class="text-secondary">Client Project</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <div class="mx-auto mb-2 " style="max-width:340px;"><img class="" style="width:100%;" src="images/a1.webp" alt=""></div>
+            <div class="text-center">
+              <h4 class="fw-bolder">3D Helmet Design</h4>
+              <p class="text-secondary">Client Project</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <div class="mx-auto mb-2 " style="max-width:340px;"><img class="" style="width:100%;" src="images/a1.webp" alt=""></div>
+            <div class="text-center">
+              <h4 class="fw-bolder">3D Helmet Design</h4>
+              <p class="text-secondary">Client Project</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <div class="mx-auto mb-2 " style="max-width:340px;"><img class="" style="width:100%;" src="images/a1.webp" alt=""></div>
+            <div class="text-center">
+              <h4 class="fw-bolder">3D Helmet Design</h4>
+              <p class="text-secondary">Client Project</p>
+            </div>
+          </div>
+          <div class="col-12 bg-danger">
+           <div class="d-flex justify-content-center"> <a class="d-inline-block px-5 bg-info " style="line-height:48px; text-decoration: none;" href="">Load More Items</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 ">
+           <div class="mx-auto mb-5" style="max-width:670px;">
+            <h2 class="text-center">Testimonials</h2>
+            <p class="text-center">If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+           </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+            <h4 class="fw-bolder">Fanny Spencer</h4>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-half"></i></a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+            <h4 class="fw-bolder">Fanny Spencer</h4>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-half"></i></a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 ">
+            <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+            <h4 class="fw-bolder">Fanny Spencer</h4>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-fill"></i></a>
+            <a href=""><i class="bi bi-star-half"></i></a>
           </div>
         </div>
       </div>
@@ -153,8 +411,36 @@
 
 
 
-
-
+      <!--footer-->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-5 p-0 py-5 bg-info">
+            <div class="">
+              <h3  style="font-size:18px;">About Me</h3>
+              <p style="font-size:14px;">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+              <p style="font-size:14px;"> Copyright © 2022 All rights reserved | This template is made with <i class="bi bi-balloon-heart"></i> by <a href="">colorlib</a></p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-5 p-0 py-5 bg-warning">
+            <h3  style="font-size:18px;">Newsletter</h3>
+            <p>Stay updated with our latest trends</p>
+            <div class="bg-light d-flex">
+              <input class="w-75 px-3 py-0" placeholder="enter email address" type="email">
+            <button class="btn bg-info  p-0" style="width:42px; "><i class="bi bi-arrow-right" ></i></button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 p-0 py-5 bg-success">
+            <h3 style="font-size:18px;">Follow Me</h3>
+            <p>Let us be social</p>
+            <ul class="ul5 ps-0">
+              <li><i class="bi bi-facebook"></i></li>
+              <li><i class="bi bi-twitter"></i></li>
+              <li><i class="bi bi-dribbble"></i></li>
+              <li><i class="bi bi-behance"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
 
 
