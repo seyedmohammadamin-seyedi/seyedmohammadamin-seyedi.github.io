@@ -1,7 +1,8 @@
 $colorgra:-moz-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+$colorroow:#f9f9ff;
 body{
     
-    background-color: burlywood;
+    // background-color: burlywood;
 }
 .a1{
     padding: 0px !important;
@@ -79,6 +80,12 @@ h4{
 }
 .progrscolor{
   background-image:$colorgra;
+}
+.colorrow{
+  background-color:$colorroow;
+}
+.divstar a{
+  color:#ffc000 ;
 }
 @media screen and (max-width:575px) {
   .navcontasize{
