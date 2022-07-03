@@ -222,6 +222,9 @@
   .goli2 {
     width: 100%;
   }
+  .divstyle16 {
+    margin: 0px auto;
+  }
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
@@ -267,6 +270,9 @@
   .parentgoli {
     bottom: -100px;
     width: 85%;
+  }
+  .divstyle16 {
+    margin: 0px auto;
   }
 }
 
@@ -314,6 +320,9 @@
     bottom: -100px;
     width: 85%;
   }
+  .divstyle16 {
+    margin: 0px auto;
+  }
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
@@ -357,6 +366,9 @@
   .parentgoli {
     bottom: -100px;
     width: 85%;
+  }
+  .divstyle16 {
+    margin: 0px auto;
   }
 }
 
@@ -402,6 +414,9 @@
     bottom: -100px;
     width: 85%;
   }
+  .divstyle16 {
+    margin: 0px auto;
+  }
 }
 
 @media all and (min-width: 1400px) {
@@ -445,5 +460,8 @@
   .parentgoli {
     bottom: -100px;
     width: 85%;
+  }
+  .divstyle16 {
+    margin: 0px auto;
   }
 }

@@ -177,6 +177,9 @@ transition: all 300ms ease;
   .goli2{
     width:100%; ;
   }
+  .divstyle16{
+    margin: 0px auto;
+  }
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
@@ -228,6 +231,9 @@ transition: all 300ms ease;
         bottom:-100px;
         width:85%;
       }
+      .divstyle16{
+        margin: 0px auto;
+      }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -278,6 +284,9 @@ transition: all 300ms ease;
       .parentgoli{
         bottom:-100px;
         width:85%;
+      }
+      .divstyle16{
+        margin: 0px auto;
       }
 }
 
@@ -331,6 +340,9 @@ transition: all 300ms ease;
       bottom:-100px;
       width:85%;
     }
+    .divstyle16{
+      margin: 0px auto;
+    }
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {
@@ -380,6 +392,9 @@ transition: all 300ms ease;
       bottom:-100px;
       width:85%;
     }
+    .divstyle16{
+      margin: 0px auto;
+    }
 }
 
 @media all and (min-width:1400px) {
@@ -428,5 +443,8 @@ transition: all 300ms ease;
     .parentgoli{
       bottom:-100px;
       width:85%;
+    }
+    .divstyle16{
+      margin: 0px auto;
     }
 }
