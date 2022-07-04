@@ -63,7 +63,7 @@
 
 .mamad h3 {
   font-family: "Heebo",sans-serif;
-  font-size: 48px;
+  font-size: calc(20px + 1em);
   font-weight: bold;
 }
 
