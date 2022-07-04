@@ -207,6 +207,10 @@
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
 }
 
+.divstyle16 {
+  margin: 0px auto;
+}
+
 @media screen and (max-width: 575px) {
   .navcontasize {
     width: 100%;

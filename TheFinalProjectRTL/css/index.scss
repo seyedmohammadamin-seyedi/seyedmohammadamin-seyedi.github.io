@@ -160,6 +160,9 @@ transition: all 300ms ease;
   box-shadow:none;height:40px;border: 1px solid rgb(135, 135, 233);
 }
 .divstyle15{ background-image: $colorgra;}
+.divstyle16{
+  margin: 0px auto;
+}
 @media screen and (max-width:575px) {
   .navcontasize{
     width:100%;
